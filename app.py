@@ -26,7 +26,11 @@ users_schema=UserSchema(many=True)
 
 @app.route('/')
 def flaskApp():
+<<<<<<< HEAD
     return "Hello world"
+=======
+    return 'Hello world'
+>>>>>>> parent of 4b3afe8... added default guidelines
 
 @app.route('/user',methods=['GET'])
 def getAllUser():
