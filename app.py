@@ -28,7 +28,11 @@ users_schema=UserSchema(many=True)
 def flaskApp():
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return "Hello world"
+=======
+    return 'Hello world'
+>>>>>>> parent of 4b3afe8... added default guidelines
 =======
     return 'Hello world'
 >>>>>>> parent of 4b3afe8... added default guidelines
