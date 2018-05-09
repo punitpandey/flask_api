@@ -26,7 +26,11 @@ users_schema=UserSchema(many=True)
 
 @app.route('/')
 def flaskApp():
-    return 'Hello world'
+    return """Please send GET,PUT and DELETE request:<br>
+    GET Method: <api_link>/user <br>
+    PUT Method: <api_link>/put with json parameters 'username' and 'email' <br>
+    DELETE Method: <api_link>/user/<id>
+    """
 
 @app.route('/user',methods=['GET'])
 def getAllUser():
